@@ -1,0 +1,241 @@
+
+body{
+  margin: 0;
+  padding: 0;
+}
+#root{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.hero{
+  background-image: 
+  linear-gradient(rgba(251, 251, 251, 0.443), rgba(0, 102, 255, 0.808)),
+  url('./image/PPlus_Logo_1200x630_BLUE.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 500px;
+}
+
+.hero header ul{
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 20px;
+}
+
+.hero header ul li{
+  list-style: none;
+}
+
+.hero header ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+}
+
+.hero header .nav-links{
+  display: flex;
+}
+
+.hero header .nav-links li{
+  margin: 0;
+  padding-left: 20px;
+}
+
+.hero .hero-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .hero-text h1{
+  font-size: 45px;
+  margin: 40px;
+  padding: 10px;
+  font-weight: 900;
+}
+
+.hero .hero-text h2{
+  font-weight: 900;
+  font-size: 30px;
+  padding: 40px;
+}
+
+.footer-text{
+  background-color: rgba(0, 102, 255, 0.808);
+  color: white;
+  font-size: 16px; 
+}
+
+.footer-text ul{
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 20px;
+}
+
+.footer-text ul li{
+  list-style: none;
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.movies .movie {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.movies .movie img {
+  width: auto;
+  height: 450px;
+  max-width: 300px;
+}
+
+.movies .movie img:hover {
+  transform: scale(1.30);
+  transition: transform 0.8s;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.stars h1 {
+  font-size: 16px;
+  margin-right: 10px;
+  font-weight: 800;
+}
+
+.stars h2 {
+  font-size: 16px;
+  margin-left: 10px;
+  font-weight: 800;
+}
+
+.no-movies{
+  font-size: 25px;
+  font-weight: 800;
+  margin: 50px;
+}
+
+.movie-detail{
+  overflow: hidden;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.movie-detail .movie-detail-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-detail .movie-detail-text h1{
+  font-size: 50px;
+  font-weight: 900;
+  margin: 30px;
+  text-align: center;
+}
+
+.movie-detail .movie-detail-text h2{
+  font-size: 30px;
+  font-weight: 900;
+  max-width: 900px;
+  margin: 30px;
+}
+
+.movie-detail .movie-detail-text span{
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.movie-detail .movie-detail-text ul{
+  font-size: 22px;
+  font-weight: 700;
+  max-width: 900px;
+  list-style: none;
+}
+
+.movie-detail .movie-detail-text ul li{
+  margin: 15px;
+}
+
+.movie-detail .movie-detail-text ul li span{
+  font-weight: 800;
+  font-size: 25px;
+  color: rgb(143, 5, 5);
+}
+.not-found{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 50px;
+  font-weight: 900;
+  height: 100vh;
+}
+
+.not-found h1{
+  margin: 20px;
+  color: rgb(176, 7, 7);
+}
+
+.not-found h2{
+  margin: 20px;
+  color: rgb(176, 7, 7);
+}
+
+.not-found p{
+  font-size: 35px;
+}
+
+.search{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search h1{
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.search input{
+  width: 300px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 3px;
+  border: 2px solid rgb(4, 4, 4);
+  outline: none;
+}
+
+.search ul{
+  list-style: none;
+}
+
+.search ul li{
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  border-bottom: 2px solid rgba(0, 102, 255, 0.429);
+}
+
+.search .no-movies{
+  font-size: 23px;
+  font-weight: 700;
+  margin: 50px;
+}

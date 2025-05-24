@@ -122,6 +122,16 @@ body{
   font-weight: 800;
 }
 
+
+.reset-button{
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-style: none;
+  background-color: gold;
+  border-radius: 5px;
+  
+}
+
 .no-movies{
   font-size: 25px;
   font-weight: 800;
@@ -238,4 +248,26 @@ body{
   font-size: 23px;
   font-weight: 700;
   margin: 50px;
+}
+
+.pagination-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pagination-button {
+  background-color:rgba(0, 102, 255, 0.808);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination-button:disabled {
+  background-color: rgba(0, 102, 255, 0.532);
 }

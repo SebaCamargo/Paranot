@@ -6,6 +6,7 @@ import { Routes, Route, Link } from "react-router";
 import MovieDetail from "./pages/MovieDetail";
 import NotFound from "./pages/NotFound";
 import Search from "./pages/Search";
+import Pagination from "./pages/Pagination";
 
 function App() {
   const [films, setFilms] = useState([]);
@@ -39,6 +40,10 @@ function App() {
               <li>
                 <Link to="/">Home</Link>
               </li>
+
+              <li>
+  <Link to="/paginacion">Paginación</Link>
+</li>
             </div>
           </ul>
         </header>
@@ -58,6 +63,8 @@ function App() {
           <Route path="/moviedetail/:idMovie" element={<MovieDetail />} />
 
           <Route path="/buscar" element={<Search />} />
+
+          <Route path="/paginacion" element={<Pagination />} />
 
           <Route path="*" element={<NotFound />} />
         </Routes>
